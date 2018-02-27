@@ -1,0 +1,16 @@
+{
+    "nome": "Fulano de Tal",
+    "data_nascimento": "1982-10-01",
+    "endereço": "Rua da imaginação 234. Faz de conta",
+    "telefone_fixo": "(21) 2345678",
+    "celular": "(21) 9999-9999",
+    "email": "teste@teste.net.br",
+    "objetivo": "Apenas testes",
+    "perfil_profissional": "Feito apenas para testes.",
+    "escolaridade": "SUPERIOR",
+    "graduação": "Faculdades da vida.\r\n2010-2014 - Sistemas de informação",
+    "idiomas": "Inglês, Espanhol",
+    "historico_profissional": "2015-atualmente\r\nFazendo testes",
+    "ultimo_salario": "R$ 2341,24",
+    "pretensão_salarial": "R$ 3500,00"
+}

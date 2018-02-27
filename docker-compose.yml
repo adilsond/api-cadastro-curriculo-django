@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  django:
+    build: './django'
+    command: /bin/sh startup.sh
+    volumes:
+      - django_code:/code
+#    ports:
+#      - "8888:8888" #Comentado para manter a porta do django inacessível externamente. Para acessar descomente e reincie a aplicação
+    depends_on:
+      - db
+  web:
+    build: './apache'
+    image: httpd:latest
+    volumes:
+      - web_conf:/usr/local/apache2/conf
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - django
+volumes:
+   django_code:
+   postgres_data:
+   web_conf:
+
