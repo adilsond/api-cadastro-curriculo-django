@@ -66,7 +66,7 @@ Nele pode adicionar e remover os usuários que terão acesso aos dados do currí
 
 ## 2) Acessar a interface da API.
 
-A interface da API pode ser acesasda por https://avaliacao.com/curriculo. Nele o usuário pode cadastrar o currículo e listar todos os currículos cadastrados no formato json. Para consultar o currículo, o usuário pode ir no numero do índice usado para o cadastro do currículo.
+A interface da API pode ser acesasda por https://avaliacao.com/curriculos. Nele o usuário pode cadastrar o currículo e listar todos os currículos cadastrados no formato json. Para consultar o currículo, o usuário pode ir no numero do índice usado para o cadastro do currículo.
 
 Por exmeplo o usuário que quiser consultar o currículo nº 1, ele pode acessar em
 
